@@ -26,3 +26,11 @@ bash ip.sh
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/xpcyf/cf/main/youxuan.sh)
 ```
+进入定时任务保存定时运行自动优选IP
+```
+crontab -e
+```
+1小时运行一次优选IP
+```
+*/60 * * * * cd /root/auto/ && bash ip.sh
+```
