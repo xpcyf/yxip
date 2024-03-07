@@ -1,5 +1,7 @@
 搬砖
+
 VPS自动优选IP
+
 1.安装WARP
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/xpcyf/cf/main/CF.sh)
